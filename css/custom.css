@@ -1,36 +1,36 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #d181db;
-    color: black;
+    color: #161111; 
+    background-color: #f387ea;
     margin: 0;
     padding: 0;
 }
 
 button {
-    background-color: #c7367a;
+    background-color: #d9266d; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: #ffffff; 
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
     cursor: pointer;
     margin: 4px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8px; 
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(255, 77, 136, 0.3);
 }
 
 button:hover {
-    background-color: #912d91;
-    transform: scale(1.05);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #f0b6cd;
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(255, 51, 133, 0.4);
 }
 
 button:active {
-    background-color: #4b0a44;
-    transform: scale(0.98);
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: #a75978; 
+    transform: scale(0.97);
+    box-shadow: 0px 3px 8px rgba(217, 38, 109, 0.3);
 }

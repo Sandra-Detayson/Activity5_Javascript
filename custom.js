@@ -12,6 +12,10 @@ function confirmSubmission() {
     }
 }
 
+function showStudentInfo() {
+    
+}
+
 function ComputeGrade(){
     let name = prompt("Enter your name");
     var totalItems = parseInt(prompt("Enter Total Items: "));
@@ -38,4 +42,3 @@ function checkResult(result){
         return "You passed";
     }
 }
-
